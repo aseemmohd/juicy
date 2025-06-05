@@ -1,0 +1,16 @@
+
+*{box-sizing: border-box;}
+@media screen and (max-width:992) {
+
+    .menu1{
+        width: 100%;
+    }
+    
+    .main4{
+        height: 600px;
+    }
+    image4{
+        width: 100%;
+    }
+    
+}
