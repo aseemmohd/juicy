@@ -21,17 +21,33 @@
     position: absolute;
     top: 0;
     left: -100%;
-    width: 100%;
+    width: 50%;
     height: 100%;
-    background: black;
+    background: linear-gradient(to right, blue,purple);
     z-index: -1;
     transition: left .4s ease;
 }
 
 .button1:hover::before {
     left: 0;
+}
+.button1:hover::after {
+right: 0;
 
 }
+.button1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 50%;
+    height: 100%;
+    background:linear-gradient(to left, blue ,purple);
+    z-index: -1;
+    transition: right .4s ease;
+}
+
+
 
 .button1:hover {
     color: white;
@@ -46,6 +62,10 @@
     position: relative;
     overflow: hidden;
     z-index: 1;
+    transition: .4s ease-out;
+}
+.image2:hover{
+    transform: scale(1.02);
 }
 
 .content{
@@ -57,17 +77,13 @@
     background-color: rgba(255, 255, 255, 0.562);
     flex-direction: column;
     gap: 20px;
-    color: red;
+    color: black;
+    font-size: 18px;
     z-index: 2;
     transition:top .3s ease ;
     padding: 0 30px;
     text-align: center;
-    
-    
-    
-    .button1{
-        color: red;
-    }
+
 }
 .image2:hover .content{
     top: 0;
