@@ -7,6 +7,7 @@
 .button1 {
     height: 70px;
     width: 190px;
+    border: 2px solid black;
     border-radius: 30px;
     position: relative;
     overflow: hidden;
