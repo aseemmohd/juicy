@@ -21,9 +21,9 @@
     position: absolute;
     top: 0;
     left: -100%;
-    width: 50%;
+    width: 100%;
     height: 100%;
-    background: linear-gradient(to right, blue,purple);
+    background: black;
     z-index: -1;
     transition: left .4s ease;
 }
@@ -31,21 +31,7 @@
 .button1:hover::before {
     left: 0;
 }
-.button1:hover::after {
-right: 0;
 
-}
-.button1::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: -100%;
-    width: 50%;
-    height: 100%;
-    background:linear-gradient(to left, blue ,purple);
-    z-index: -1;
-    transition: right .4s ease;
-}
 
 
 
@@ -55,7 +41,7 @@ right: 0;
 
 .image1 {
     position: relative;
-    animation: juicy 1s ease infinite ;
+    animation: juicy 2s ease infinite ;
 
 }
 .image2{
